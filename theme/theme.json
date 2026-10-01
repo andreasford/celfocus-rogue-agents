@@ -1,0 +1,67 @@
+{
+  "prospect": {
+    "name": "Celfocus",
+    "short": "Celfocus",
+    "domain": "celfocus.com"
+  },
+  "title": "Celfocus vs The Rogue Agents",
+  "tagline": "Made for Celfocus by PostHog",
+  "palette": {
+    "primary": "#369FAB",
+    "secondary": "#1D1D1B",
+    "accent": "#A781B9"
+  },
+  "products": [
+    "feature_flags",
+    "error_tracking",
+    "session_replay",
+    "experiments",
+    "product_analytics"
+  ],
+  "music": {
+    "mood": "futuristic, driving, clever, confident, synthy",
+    "bpm": 154
+  },
+  "text": {
+    "win": "Every agent change shipped behind a flag, every regression rolled back, and the agents stayed creative.",
+    "lose": "The rogue agents merged first this time. Wrap them in a flag and try again.",
+    "credits": "Made for the Celfocus AI Solutions team by PostHog"
+  },
+  "game": {
+    "difficulty": "normal",
+    "starting_product": "feature_flags",
+    "arena": {
+      "name": "The Agentic SDLC",
+      "sprite_prompt": "dark circuit board floor with thin teal traces, seen from above"
+    },
+    "enemies": [
+      {
+        "name": "Rogue Agent",
+        "pain": "An agent shipped it. Nobody reviewed it.",
+        "sprite_prompt": "a tiny teal robot beetle with a blinking antenna"
+      },
+      {
+        "name": "Prompt Drift",
+        "pain": "Same prompt, different result every run",
+        "sprite_prompt": "a lavender moth whose wings flicker between two patterns"
+      },
+      {
+        "name": "Red Tape Beetle",
+        "pain": "Guardrails so tight the agents can't create",
+        "sprite_prompt": "a big slow dark beetle wrapped in red tape with a stamp on its back"
+      }
+    ],
+    "boss": {
+      "name": "Runaway Pipeline",
+      "taunt": "No flags, no rollback, straight to prod!",
+      "sprite_prompt": "a giant teal centipede made of linked pipeline stages with glowing lavender joints"
+    },
+    "product_lines": {
+      "feature_flags": "Every agent change ships behind a flag",
+      "error_tracking": "Error spikes trigger an auto-rollback",
+      "session_replay": "Watch what the agent's change did",
+      "experiments": "Agents A/B test, you pick the winner",
+      "product_analytics": "Agents query usage through MCP"
+    }
+  }
+}
